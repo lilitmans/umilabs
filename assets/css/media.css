@@ -1,0 +1,164 @@
+@media only screen and (min-width: 1440px) {
+    .content {
+        width: 1440px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #skills-description-main-block{
+        height: inherit;
+    }
+
+    #first-block,
+    #about-us-block,
+    #working-benefits-main-block,
+    #about-you-main-block {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    #skills-description-block {
+        position: relative;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    #first-block,
+    #about-us-block,
+    #working-benefits-main-block,
+    #about-you-main-block {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .working-benefits-item {
+        flex: inherit;
+        width: 50%;
+    }
+
+    .working-benefits-item:nth-child(3) {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .first-block-title,
+    .about-us-title,
+    .working-benefits-main-title,
+    .about-you-title {
+        font-size: 28px;
+    }
+
+    .about-you-title {
+        margin-bottom: 30px;
+    }
+
+    .working-benefits-img-block {
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
+        height: 25px;
+    }
+
+    .working-benefits-img {
+        width: 25px;
+    }
+
+    .working-benefits-title {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 3px;
+        padding-bottom: 10px;
+    }
+
+    .working-benefits-title:after {
+        width: 100%;
+        bottom: 0;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .form-field-label {
+        font-size: 14px;
+    }
+
+    .form-field-number {
+        padding: 6px 15px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .form-field,
+    .form-btn {
+        margin-left: 50px;
+        width: 98%;
+        width: -webkit-calc(100% - 50px);
+        width: -moz-calc(100% - 50px);
+        width: calc(100% - 50px);
+    }
+
+    .skills-container {
+        padding: 15px;
+        width: 100;
+        border: none;
+        border-bottom: 1px solid #EDEDED;
+    }
+
+    .skills-container-txt {
+        font-size: 18px;
+    }
+
+    .working-benefits-item {
+        width: 100%;
+    }
+
+    .working-benefits-item:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    .form-field {
+        font-size: 16px;
+    }
+    .form-field::placeholder,
+    .form-field::-webkit-input-placeholder,
+    .form-field::-moz-placeholder,
+    .form-field:-ms-input-placeholder,
+    .form-field:-moz-placeholder {
+        font-size: 16px;
+    }
+
+    #banner-block {
+        height: 500px;
+        background-position: 60% center;
+    }
+
+    textarea::-webkit-scrollbar {
+        width: 2px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    
+}
+
+@media only screen and (min-width: 320px)
+and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 768px)  and (min-width: 576px)
+and (orientation: landscape) {
+    .skills-container {
+        padding: 20px;
+    }
+}
+
